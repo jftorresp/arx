@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/arx/static/css/main.092551b9.chunk.css",
+    "main.js": "/arx/static/js/main.4abecee7.chunk.js",
+    "main.js.map": "/arx/static/js/main.4abecee7.chunk.js.map",
+    "runtime~main.js": "/arx/static/js/runtime~main.364a1167.js",
+    "runtime~main.js.map": "/arx/static/js/runtime~main.364a1167.js.map",
+    "static/js/2.deb82095.chunk.js": "/arx/static/js/2.deb82095.chunk.js",
+    "static/js/2.deb82095.chunk.js.map": "/arx/static/js/2.deb82095.chunk.js.map",
+    "index.html": "/arx/index.html",
+    "precache-manifest.bbc5e56618383202c07a6f41daab54e2.js": "/arx/precache-manifest.bbc5e56618383202c07a6f41daab54e2.js",
+    "service-worker.js": "/arx/service-worker.js",
+    "static/css/main.092551b9.chunk.css.map": "/arx/static/css/main.092551b9.chunk.css.map",
+    "static/media/Inicio_Arx.png": "/arx/static/media/Inicio_Arx.c25dac4b.png",
+    "static/media/main.css": "/arx/static/media/OpenSans-Regular.d7d5d458.ttf",
+    "static/media/Progress_Arx.png": "/arx/static/media/Progress_Arx.38b25c13.png",
+    "static/media/style.css": "/arx/static/media/video-bg.70f76734.jpg"
+  }
+}
