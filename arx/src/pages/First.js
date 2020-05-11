@@ -3,8 +3,8 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Home from "../Components/Home";
 import About from "../Components/About";
-import Features from "../Components/Features";
-import Progress from "../Components/Progress";
+// import Features from "../Components/Features";
+// import Progress from "../Components/Progress";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 
@@ -21,12 +21,8 @@ class First extends React.Component {
         <div>
           <About />
         </div>
-        <div>
-          <Features />
-        </div>
-        <div>
-          <Progress />
-        </div>
+        <div>{/* <Features /> */}</div>
+        <div>{/* <Progress /> */}</div>
         <div>
           <Contact />
         </div>

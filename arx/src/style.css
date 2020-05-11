@@ -33,12 +33,6 @@ CSS INDEX
 23. Form-Stype
 -----------------------------------------------------------------------------------*/
 
-/*-----------------
-1. Google font
-------------------*/
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800");
-
 /*-------------------
 2. Theme Default CSS
 --------------------*/
@@ -99,7 +93,6 @@ body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -333,8 +326,8 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .upper {
@@ -672,56 +665,6 @@ input:-webkit-autofill:focus {
   margin-bottom: -153px;
 }
 
-/*-- 9. Video-Area --*/
-
-.video-area {
-  background-image: url("images/video-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: auto 100%;
-  margin-bottom: 120px;
-}
-
-.video-photo {
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.video-photo > img {
-  width: 100%;
-}
-
-.video-area a.video-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-
-/*-- 10. Feature-Area --*/
-
-.feature-area {
-  color: #ffffff;
-  background-color: #ab2695;
-  background-image: url("images/feature-bg.png");
-  background-position: bottom -120px center;
-  background-repeat: no-repeat;
-  background-size: auto 94%;
-  margin-bottom: 142px;
-}
-
-.feature-area .page-title .title {
-  color: #ffffff;
-}
-
-.feature-area .mobile-image {
-  margin-bottom: -142px;
-}
-
 /*-- 11. Service-Box --*/
 
 .service-box {
@@ -938,10 +881,6 @@ input:-webkit-autofill:focus {
   color: #ffffff;
 }
 
-.gallery-slide .owl-stage-outer {
-  background: url("images/mobile-screen.png") no-repeat center right / auto 100%;
-}
-
 .gallery-slide .item {
   margin: 58px 17px 70px 15px;
   overflow: hidden;
@@ -994,238 +933,6 @@ input:-webkit-autofill:focus {
   transform: scale(2);
 }
 
-/*-- 14. Download-Area --*/
-
-.download-area {
-  background-image: url("images/download-bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin-top: 70px;
-  margin-bottom: 100px;
-  color: #ffffff;
-}
-
-.download-area .mobile-image {
-  margin-top: -106px;
-  margin-bottom: -200px;
-}
-
-/*-- 15. Price-Area --*/
-
-.price-box {
-  border-radius: 5px;
-  overflow: hidden;
-  text-align: center;
-  color: #8790af;
-  -webkit-box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price-box:hover {
-  -webkit-box-shadow: 0 0 50px -15px #4d43c6;
-  box-shadow: 0 0 50px -15px #4d43c6;
-}
-
-.price-box .price-header {
-  background-color: #f2f3fc;
-  padding: 40px;
-  color: #768ede;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
-  background: rgb(72, 44, 191);
-  /* Old browsers */
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(72, 44, 191, 1) 0%,
-    rgba(106, 198, 240, 1) 100%
-  );
-  /* Chrome10-25,Safari5.1-6 */
-  background: -o-linear-gradient(
-    45deg,
-    rgba(72, 44, 191, 1) 0%,
-    rgba(106, 198, 240, 1) 100%
-  );
-  background: linear-gradient(
-    45deg,
-    rgba(72, 44, 191, 1) 0%,
-    rgba(106, 198, 240, 1) 100%
-  );
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price-box .price-header:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f2f3fc;
-  z-index: -1;
-  opacity: 1;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price-box:hover .price-header {
-  color: #ffffff;
-}
-
-.price-box:hover .price-header:before {
-  opacity: 0;
-}
-
-.price-box .price-header .price-icon {
-  font-size: 60px;
-  margin-bottom: 10px;
-}
-
-.price-box .price-header h4 {
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 3px;
-}
-
-.price-box .price-body {
-  padding: 40px;
-}
-
-.price-box .price-body ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.price-box .price-rate {
-  color: #768ede;
-  margin-bottom: 40px;
-  font-size: 20px;
-}
-
-.price-box .price-rate sup {
-  top: -20px;
-  font-size: 26px;
-}
-
-.price-box .price-rate .rate {
-  font-size: 56px;
-}
-
-.price-box .price-footer {
-  margin-bottom: 40px;
-}
-
-.price-box .price-footer .bttn-white {
-  padding: 13px 50px;
-}
-
-.price-box .price-footer .bttn-white:before {
-  width: calc(100% - 4px);
-  height: calc(100% - 4px);
-  border-radius: 100px;
-  left: 2px;
-  top: 2px;
-}
-
-/*-- 16. Questions-area --*/
-
-.questions-area {
-  background-color: #f5f6ff;
-}
-
-.toggole-boxs {
-  margin-top: -20px;
-}
-
-.toggole-boxs h3 {
-  font-size: 18px;
-  background-color: #ffffff;
-  margin-bottom: 0;
-  margin-top: 20px;
-  outline: none;
-  padding: 20px 30px 20px 60px;
-  color: #434345;
-  border-left: 5px solid #5e88fc;
-  cursor: pointer;
-  position: relative;
-}
-
-.toggole-boxs h3:before,
-.toggole-boxs h3:after {
-  content: "";
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  width: 10px;
-  height: 2px;
-  background-color: #434345;
-}
-
-.toggole-boxs h3:before {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.toggole-boxs h3.ui-state-active:before {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-.toggole-boxs div {
-  background-color: #ffffff;
-  padding: 0 30px 20px 60px;
-  border-left: 5px solid #5e88fc;
-}
-
-/*-- 17. Subscribe-Form --*/
-
-.subscribe-area {
-  background: url("images/subscribe-bg.jpg") no-repeat scroll center center /
-    cover;
-}
-
-.subscribe-form {
-  background-color: #ffffff;
-  padding: 60px;
-  border-radius: 5px;
-}
-
-.subscribe-form form {
-  position: relative;
-}
-
-.subscribe-form form .control {
-  width: 100%;
-  height: auto;
-  padding: 15px 180px 15px 30px;
-  border-radius: 100px;
-  border: 1px solid #5e88fc;
-}
-
-.subscribe-form form .bttn-white {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-right: 0;
-}
-
 /*-- 18. Footer-Area --*/
 
 .footer-box {
@@ -1235,6 +942,7 @@ input:-webkit-autofill:focus {
 .footer-box .box-icon {
   width: 75px;
   height: 75px;
+  cursor: pointer;
   margin: auto auto 30px auto;
   text-align: center;
   line-height: 75px;
@@ -1333,8 +1041,15 @@ input:-webkit-autofill:focus {
 
 .footer-bottom {
   padding: 20px 0;
-  background-color: #f5f6ff;
-  border-top: 1px solid #5e88fc;
+  background: rgb(3, 179, 208);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 179, 208, 1) 0%,
+    rgba(163, 141, 194, 1) 13%,
+    rgba(149, 27, 129, 1) 52%,
+    rgba(51, 61, 145, 1) 82%,
+    rgba(27, 63, 146, 1) 100%
+  );
 }
 
 .footer-bottom .footer-menu ul {
@@ -1350,11 +1065,12 @@ input:-webkit-autofill:focus {
 
 .footer-bottom .footer-menu ul li a {
   padding: 10px;
-  color: #8790af;
+  color: #fff;
 }
 
 .footer-bottom .footer-menu ul li a:hover {
-  color: #5e88fc;
+  color: #fff;
+  text-decoration: underline;
 }
 
 /*-- 19. ScrollUp-Button --*/
@@ -1722,4 +1438,47 @@ input:-webkit-autofill:focus {
 
 .form-double .box.last {
   float: right;
+}
+
+/* Home Styles */
+
+.home-area h1 {
+  font-family: "Fashion Fetish";
+}
+
+.home-area p {
+  font-family: "Avenir Next";
+}
+
+/* Navbar Styles */
+
+.mainmenu-area .nav-options {
+  text-align: end;
+}
+
+.mainmenu-area ul li a {
+  font-size: 16px;
+}
+
+.section-padding h5 {
+  font-family: "Avenir Next";
+}
+
+.section-padding h3 {
+  font-family: "Fashion Fetish";
+}
+
+.section-padding p {
+  font-family: "Avenir Next";
+}
+
+/* Footer styles */
+
+footer .footer-bottom a {
+  color: #fff;
+}
+
+footer .footer-bottom a:hover {
+  color: #fff;
+  text-decoration: underline;
 }

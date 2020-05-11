@@ -6,34 +6,28 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-5">
+        <div class='footer-bottom'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-xs-12 col-md-5'>
                 <span>
-                  Copyright &copy;
-                  2019
-                  Todos los derechos reservados <br>
-                  </br>Totocho Apps
-                  <a href="#" target="_blank">
+                  <a href='/'>
+                    Copyright &copy; 2020 All rights reserved <br></br>{" "}
                   </a>
                 </span>
-                <div class="space-30 hidden visible-xs" />
+                <div class='space-30 hidden visible-xs' />
               </div>
-              <div class="col-xs-12 col-md-7">
-                <div class="footer-menu">
+              <div class='col-xs-12 col-md-7'>
+                <div class='footer-menu'>
                   <ul>
                     <li>
-                      <a href="#">Acerca de</a>
+                      <a href='/#about_page'>About</a>
                     </li>
                     <li>
-                      <a href="#">Características</a>
+                      <a href='/#features_page'>Features</a>
                     </li>
                     <li>
-                      <a href="#">Opiniones</a>
-                    </li>
-                    <li>
-                      <a href="#">Contacto</a>
+                      <a href='/#contact_page'>Contact</a>
                     </li>
                   </ul>
                 </div>

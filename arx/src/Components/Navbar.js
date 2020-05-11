@@ -8,47 +8,50 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav className="mainmenu-area" data-spy="affix" data-offset-top="200">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle"
-                data-toggle="collapse"
-                data-target="#primary_menu"
-              >
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-              </button>
-              <Link
-                className="navbar-brand"
-                hclass="collapse navbar-collapse"
-                id="primary_menu"
-                to="/"
-              >
-                <img src={logo} alt="Logo" />
-              </Link>
+        <nav className='mainmenu-area' data-spy='affix'>
+          <div className='container-fluid'>
+            <div className='navbar-header'>
+              <a className='navbar-brand' href='/' id='primary_menu'>
+                <img src={logo} alt='Logo' />
+              </a>
             </div>
-            <div>
-              <ul className="nav navbar-nav mainmenu">
-                <li className="active">
-                  <a href="#home_page">Home</a>
+            <div className='nav-options'>
+              <ul className='nav navbar-nav mainmenu'>
+                <li className='active'>
+                  <a href='#home_page'>Home</a>
                 </li>
                 <li>
-                  <a href="#about_page">Información</a>
+                  <a href='#about_page'>About</a>
                 </li>
                 <li>
-                  <a href="#progress_page">Características</a>
+                  <a href='#contact_page'>Contact</a>
                 </li>
                 <li>
-                  <a href="#features_page">Opiniones</a>
+                  <a
+                    href='https://www.facebook.com/ArxColombia'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i className='fab fa-facebook'></i>
+                  </a>
                 </li>
                 <li>
-                  <a href="blog.html">Dev-Blog</a>
+                  <a
+                    href='https://www.instagram.com/arxapp/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i className='fab fa-instagram'></i>
+                  </a>{" "}
                 </li>
                 <li>
-                  <a href="#contact_page">Contacto</a>
+                  <a
+                    href='https://twitter.com/Arx_App'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i className='fab fa-twitter'></i>
+                  </a>{" "}
                 </li>
               </ul>
             </div>
